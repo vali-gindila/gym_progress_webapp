@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<nav id="navbar">
+	  <div id="Text_nav">GYM PROGRESS</div>
+  </nav>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="php/register.php" method="POST">
+			<h1>Create Account</h1>	
+			<input type="text" name="name" placeholder="Name" id="signupname" />
+			<input type="email" name="email" placeholder="Email" id="signupemail" />
+			<input type="password" name="password" placeholder="Password" id="signuppassword" />
+			<button onclick="register()">Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="php/login.php" method="POST">
+			<h1>Sign in</h1>
+			<input type="email" name="email" placeholder="Email" id="loginemail" />
+			<input type="password" name="password" placeholder="Password" id="loginpassword"/>
+			<button onclick="login()">Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/login.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</html>

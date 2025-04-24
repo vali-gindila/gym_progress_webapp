@@ -1,0 +1,1218 @@
+[
+  {
+    "muscle": "Chest",
+    "exercises": [
+      {
+        "name": "Bench Press",
+        "equipment": "Barbell",
+        "description": "Lie flat on a bench and press the barbell upward.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Push-Up",
+        "equipment": "Bodyweight",
+        "description": "A basic bodyweight chest exercise.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Incline dumbbell bench press",
+        "equipment": "Dumbbell",
+        "description": "Lie on an incline bench and press the dumbbells upward.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Incline cable flye",
+        "equipment": "Cable",
+        "description": "Lie on an incline bench and open your arms wide with cables.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell bench press",
+        "equipment": "Dumbbell",
+        "description": "Lie flat on a bench and press the dumbbells upward.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Chest dip",
+        "equipment": "Bodyweight",
+        "description": "Lower your body using parallel bars, focusing on the chest.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Incline dumbbell flye",
+        "equipment": "Dumbbell",
+        "description": "Lie on an incline bench and open your arms wide with dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Pec deck machine",
+        "equipment": "Machine",
+        "description": "Sit on a pec deck machine and bring the arms together.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Dumbbell flye",
+        "equipment": "Dumbbell",
+        "description": "Lie flat on a bench and open your arms wide with dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Decline barbell bench press",
+        "equipment": "Barbell",
+        "description": "Lie on a decline bench and press the barbell upward.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Smith machine incline bench press",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform an incline bench press.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Decline dumbbell bench press",
+        "equipment": "Dumbbell",
+        "description": "Lie on a decline bench and press the dumbbells upward.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable pec flye",
+        "equipment": "Cable",
+        "description": "Stand between two cable machines and open your arms wide.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable crossover",
+        "equipment": "Cable",
+        "description": "Stand between two cable machines and bring the cables together.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Smith machine bench press",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a flat bench press.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Machine chest press",
+        "equipment": "Machine",
+        "description": "Sit on a chest press machine and push the handles forward.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Dumbbell pullover",
+        "equipment": "Dumbbell",
+        "description": "Lie on a bench and extend a dumbbell over your head.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Decline Push-Up",
+        "equipment": "Bodyweight",
+        "description": "A push-up variation with feet elevated.",
+        "difficulty": "Intermediate"
+      }
+    ]
+  },
+  {
+    "muscle": "Back",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "equipment": "Barbell",
+        "description": "Lift the bar from the ground using your legs and back.",
+        "difficulty": "Advanced"
+      },
+      {
+        "name": "Pull-Up",
+        "equipment": "Bodyweight",
+        "description": "Pull your body up to a bar.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Bent-Over Row",
+        "equipment": "Barbell",
+        "description": "Bend over and pull the barbell to your waist.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Lat Pulldown",
+        "equipment": "Cable",
+        "description": "Pull the cable down to your chest.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Seated Cable Row",
+        "equipment": "Cable",
+        "description": "Sit and pull the cable towards you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "T-Bar Row",
+        "equipment": "Barbell",
+        "description": "Use a T-Bar machine to row the weight.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Row",
+        "equipment": "Dumbbell",
+        "description": "Bend over and pull a dumbbell to your waist.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Face Pull",
+        "equipment": "Cable",
+        "description": "Pull the cable towards your face.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Single-Arm Dumbbell Row",
+        "equipment": "Dumbbell",
+        "description": "Row a dumbbell with one arm while supporting yourself on a bench.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Inverted Row",
+        "equipment": "Bodyweight",
+        "description": "Pull your body up to a bar while lying underneath it.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Seated cable row",
+        "equipment": "Cable",
+        "description": "Sit and pull the cable towards you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Chest-supported row",
+        "equipment": "Dumbbell",
+        "description": "Lie face down on an incline bench and row the dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Barbell Shrug",
+        "equipment": "Barbell",
+        "description": "Shrug your shoulders while holding a barbell.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Row",
+        "equipment": "Cable",
+        "description": "Sit and pull the cable towards you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Reverse Flye",
+        "equipment": "Dumbbell",
+        "description": "Bend over and open your arms wide with dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Smith Machine Deadlift",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a deadlift.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Pullover",
+        "equipment": "Dumbbell",
+        "description": "Lie on a bench and extend a dumbbell over your head.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Kettlebell Swing",
+        "equipment": "Kettlebell",
+        "description": "Swing a kettlebell between your legs and up to shoulder height.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Smith Machine Bent-Over Row",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a bent-over row.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Pull-down",
+        "equipment": "Cable",
+        "description": "Pull the cable down to your chest.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable face pull",
+        "equipment": "Cable",
+        "description": "Pull the cable towards your face.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable bent-over row",
+        "equipment": "Cable",
+        "description": "Bend over and pull the cable to your waist.",
+        "difficulty": "Intermediate"
+      }
+    ]
+  },
+  {
+    "muscle": "Biceps",
+    "exercises": [
+      {
+        "name": "Barbell Curl",
+        "equipment": "Barbell",
+        "description": "Stand and curl the barbell towards your shoulders.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Dumbbell Curl",
+        "equipment": "Dumbbell",
+        "description": "Stand and curl the dumbbells towards your shoulders.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Hammer Curl",
+        "equipment": "Dumbbell",
+        "description": "Stand and curl the dumbbells with palms facing each other.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Preacher Curl",
+        "equipment": "Barbell",
+        "description": "Sit and curl the barbell on a preacher bench.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Concentration Curl",
+        "equipment": "Dumbbell",
+        "description": "Sit and curl a dumbbell with one arm, resting your elbow on your thigh.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Curl",
+        "equipment": "Cable",
+        "description": "Stand and curl the cable towards your shoulders.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Incline Dumbbell Curl",
+        "equipment": "Dumbbell",
+        "description": "Lie on an incline bench and curl the dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Zottman Curl",
+        "equipment": "Dumbbell",
+        "description": "Curl the dumbbells up, then rotate your wrists to lower them.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Hammer Curl",
+        "equipment": "Cable",
+        "description": "Stand and curl the cable with palms facing each other.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Reverse Curl",
+        "equipment": "Barbell",
+        "description": "Stand and curl the barbell with palms facing down.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "EZ-Bar Curl",
+        "equipment": "EZ-Bar",
+        "description": "Stand and curl the EZ-bar towards your shoulders.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Preacher Curl",
+        "equipment": "Cable",
+        "description": "Sit and curl the cable on a preacher bench.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Hammer Curl",
+        "equipment": "Dumbbell",
+        "description": "Stand and curl the dumbbells with palms facing each other.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Incline Cable Curl",
+        "equipment": "Cable",
+        "description": "Lie on an incline bench and curl the cable.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Concentration Curl",
+        "equipment": "Cable",
+        "description": "Sit and curl the cable with one arm, resting your elbow on your thigh.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Zottman Curl",
+        "equipment": "Dumbbell",
+        "description": "Curl the dumbbells up, then rotate your wrists to lower them.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Reverse Curl",
+        "equipment": "Cable",
+        "description": "Stand and curl the cable with palms facing down.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Wrist Curl",
+        "equipment": "Dumbbell",
+        "description": "Sit and curl a dumbbell with your wrists."
+      }
+    ]
+  },
+  {
+    "muscle": "Triceps",
+    "exercises": [
+      {
+        "name": "Tricep Dips",
+        "equipment": "Bodyweight",
+        "description": "Lower your body using parallel bars, focusing on the triceps.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Skull Crusher",
+        "equipment": "Barbell",
+        "description": "Lie on a bench and lower the barbell to your forehead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Tricep Pushdown",
+        "equipment": "Cable",
+        "description": "Push the cable down towards your thighs.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Overhead Tricep Extension",
+        "equipment": "Dumbbell",
+        "description": "Stand and extend a dumbbell overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Close-Grip Bench Press",
+        "equipment": "Barbell",
+        "description": "Lie on a bench and press the barbell with a close grip.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Tricep Kickback",
+        "equipment": "Dumbbell",
+        "description": "Bend over and extend a dumbbell behind you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Overhead Tricep Extension",
+        "equipment": "Cable",
+        "description": "Stand and extend the cable overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Tricep Extension",
+        "equipment": "Dumbbell",
+        "description": "Stand and extend a dumbbell overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Tricep Rope Pushdown",
+        "equipment": "Cable",
+        "description": "Push the rope down towards your thighs.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Dumbbell Skull Crusher",
+        "equipment": "Dumbbell",
+        "description": "Lie on a bench and lower the dumbbells to your forehead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Tricep Pushdown",
+        "equipment": "Cable",
+        "description": "Push the cable down towards your thighs.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Dumbbell Tricep Kickback",
+        "equipment": "Dumbbell",
+        "description": "Bend over and extend a dumbbell behind you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Bench Dip",
+        "equipment": "Bodyweight",
+        "description": "Lower your body using a bench, focusing on the triceps.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Tricep Extension",
+        "equipment": "Cable",
+        "description": "Stand and extend the cable overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "EZ-Bar Skull Crusher",
+        "equipment": "EZ-Bar",
+        "description": "Lie on a bench and lower the EZ-bar to your forehead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "French Press",
+        "equipment": "Dumbbell",
+        "description": "Lie on a bench and lower the dumbbell behind your head.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "One handed tricep extension",
+        "equipment": "Dumbbell",
+        "description": "Stand and extend a dumbbell overhead with one hand.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "One handed triceps cable pushdown",
+        "equipment": "Cable",
+        "description": "Push the cable down towards your thighs with one hand.",
+        "difficulty": "Intermediate"
+      }
+    ]
+  },
+  {
+    "muscle": "Shoulders",
+    "exercises": [
+      {
+        "name": "Shoulder Press",
+        "equipment": "Dumbbell",
+        "description": "Press the dumbbells overhead while seated.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Lateral Raise",
+        "equipment": "Dumbbell",
+        "description": "Raise the dumbbells to the side.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Front Raise",
+        "equipment": "Dumbbell",
+        "description": "Raise the dumbbells in front of you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Arnold Press",
+        "equipment": "Dumbbell",
+        "description": "Rotate the dumbbells while pressing them overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Upright Row",
+        "equipment": "Barbell",
+        "description": "Pull the barbell to your chin.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Shrug",
+        "equipment": "Dumbbell",
+        "description": "Shrug your shoulders while holding dumbbells.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Lateral Raise",
+        "equipment": "Cable",
+        "description": "Raise the cable to the side.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Front Raise",
+        "equipment": "Cable",
+        "description": "Raise the cable in front of you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Reverse Pec Deck",
+        "equipment": "Machine",
+        "description": "Sit on a machine and open your arms wide.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Face Pull",
+        "equipment": "Cable",
+        "description": "Pull the cable towards your face.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Smith Machine Shoulder Press",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a shoulder press.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Upright Row",
+        "equipment": "Cable",
+        "description": "Pull the cable to your chin.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Lateral Raise",
+        "equipment": "Dumbbell",
+        "description": "Raise the dumbbells to the side.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Plate Raise",
+        "equipment": "Plate",
+        "description": "Hold a plate with both hands and raise it overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Rear Delt Flye",
+        "equipment": "Cable",
+        "description": "Pull the cable to the side while bent over.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Front Raise",
+        "equipment": "Dumbbell",
+        "description": "Raise the dumbbells in front of you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Shoulder Press",
+        "equipment": "Cable",
+        "description": "Press the cable overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Arnold Press",
+        "equipment": "Dumbbell",
+        "description": "Rotate the dumbbells while pressing them overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Shrug",
+        "equipment": "Cable",
+        "description": "Shrug your shoulders while holding the cable.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Smith Machine Lateral Raise",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a lateral raise.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Front Raise",
+        "equipment": "Cable",
+        "description": "Raise the cable in front of you.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Shoulder Flye",
+        "equipment": "Cable",
+        "description": "Open your arms wide with cables.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Upright Row",
+        "equipment": "Dumbbell",
+        "description": "Pull the dumbbells to your chin.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Smith Machine Shrug",
+        "equipment": "Smith Machine",
+        "description": "Shrug your shoulders while holding a Smith machine.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Upright Row",
+        "equipment": "Cable",
+        "description": "Pull the cable to your chin.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Reverse Flye",
+        "equipment": "Dumbbell",
+        "description": "Bend over and open your arms wide with dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Shoulder Press",
+        "equipment": "Cable",
+        "description": "Press the cable overhead.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Milittary Press",
+        "equipment": "Barbell",
+        "description": "Press the barbell overhead while standing.",
+        "difficulty": "Intermediate"
+      }
+    ]
+  },
+  {
+    "muscle": "Legs",
+    "exercises": [
+      {
+        "name": "Squat",
+        "equipment": "Barbell",
+        "description": "Stand with feet shoulder-width apart and squat down.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Leg Press",
+        "equipment": "Machine",
+        "description": "Push the platform away using your legs.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Lunges",
+        "equipment": "Bodyweight",
+        "description": "Step forward and lower your body into a lunge.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Leg Curl",
+        "equipment": "Machine",
+        "description": "Curl your legs towards your buttocks.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Leg Extension",
+        "equipment": "Machine",
+        "description": "Extend your legs while seated.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Calf Raise",
+        "equipment": "Machine",
+        "description": "Raise your heels while standing on a platform.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Deadlift",
+        "equipment": "Barbell",
+        "description": "Lift the bar from the ground using your legs and back.",
+        "difficulty": "Advanced"
+      },
+      {
+        "name": "Smith Machine Squat",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a squat.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Lunges",
+        "equipment": "Dumbbell",
+        "description": "Step forward and lower your body into a lunge with dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Leg Curl",
+        "equipment": "Cable",
+        "description": "Curl your legs towards your buttocks using a cable.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Leg Extension",
+        "equipment": "Cable",
+        "description": "Extend your legs while seated using a cable.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Smith Machine Deadlift",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a deadlift.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Squat",
+        "equipment": "Dumbbell",
+        "description": "Stand with feet shoulder-width apart and squat down with dumbbells.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Leg Press Machine",
+        "equipment": "Machine",
+        "description": "Push the platform away using your legs on a leg press machine.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Smith Machine Leg Press",
+        "equipment": "Smith Machine",
+        "description": "Use a Smith machine to perform a leg press.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Dumbbell Calf Raise",
+        "equipment": "Dumbbell",
+        "description": "Raise your heels while holding dumbbells.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Seated Calf Raise",
+        "equipment": "Machine",
+        "description": "Sit and raise your heels while seated.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Standing Calf Raise",
+        "equipment": "Machine",
+        "description": "Stand and raise your heels while standing.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cable Squat",
+        "equipment": "Cable",
+        "description": "Squat while holding a cable attachment.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Smith Machine Lunges",
+        "equipment": "Smith Machine",
+        "description": "Step forward and lower your body into a lunge using a Smith machine.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Leg Press Calf Raise",
+        "equipment": "Machine",
+        "description": "Perform a calf raise on the leg press machine.",
+        "difficulty": "Beginner"
+      }
+    ]
+  },
+  {
+    "muscle": "Core",
+    "exercises": [
+      {
+        "name": "Plank",
+        "equipment": "Bodyweight",
+        "description": "Hold a plank position on your forearms and toes.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Crunch",
+        "equipment": "Bodyweight",
+        "description": "Lie on your back and lift your shoulders off the ground.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Russian Twist",
+        "equipment": "Bodyweight",
+        "description": "Sit and twist your torso from side to side.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Leg Raise",
+        "equipment": "Bodyweight",
+        "description": "Lie on your back and lift your legs towards the ceiling.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Bicycle Crunch",
+        "equipment": "Bodyweight",
+        "description": "Lie on your back and alternate bringing knees to elbows.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Mountain Climber",
+        "equipment": "Bodyweight",
+        "description": "In a plank position, alternate bringing knees to chest.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Hanging Leg Raise",
+        "equipment": "Bodyweight",
+        "description": "Hang from a bar and lift your legs towards your chest.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Crunch",
+        "equipment": "Cable",
+        "description": "Kneel and pull the cable down towards your shoulders.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Medicine Ball Slam",
+        "equipment": "Medicine Ball",
+        "description": "Lift a medicine ball overhead and slam it down.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Plank with Shoulder Tap",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Side Plank",
+        "equipment": "Bodyweight",
+        "description": "Hold a side plank position on one arm.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Cable Woodchopper",
+        "equipment": "Cable",
+        "description": "Pull the cable across your body in a chopping motion.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Ab Wheel Rollout",
+        "equipment": "Ab Wheel",
+        "description": "Roll the ab wheel forward while maintaining a plank position.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Reverse Crunch",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "V-Up",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Cable Side Bend",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Plank",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Side Crunch",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Plank to Push-Up",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Stability Ball Rollout",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Cable Reverse Crunch",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Russian Twist",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Cable Crunch",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Plank with Leg Lift",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Cable Plank",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      }
+    ]
+  },
+  {
+    "muscle": "Cardio",
+    "exercises": [
+      {
+        "name": "Running",
+        "equipment": "Treadmill",
+        "description": "Run on a treadmill or outdoors.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Cycling",
+        "equipment": "Stationary Bike",
+        "description": "Pedal on a stationary bike.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Rowing",
+        "equipment": "Rowing Machine",
+        "description": "Row on a rowing machine.",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Jump Rope",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Stair Climber",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Elliptical Trainer",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+
+      {
+        "name": "Swimming",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "High-Intensity Interval Training (HIIT)",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Boxing",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Jumping Jacks",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Burpees",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Battle Ropes",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Kettlebell Swings",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Sprints",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Agility Ladder Drills",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Bodyweight Circuit Training",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Dance Cardio",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Hiking",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Jumping Rope",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Treadmill Intervals",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Outdoor Running",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Stair Climbing",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Cycling Intervals",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Circuit Training",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Bodyweight Exercises",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Agility Drills",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Plyometric Exercises",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Resistance Band Cardio",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Shadow Boxing",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Jumping Squats",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Medicine Ball Slams",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Kettlebell Snatch",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Sledgehammer Workouts",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Tire Flips",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Sandbag Training",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Vest Training",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Battle Rope Waves",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Kettlebell Clean and Press",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Tire Sledgehammer Workouts",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Step-Ups",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Lunges",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Squats",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Push-Ups",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Pull-Ups",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Dips",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      },
+      {
+        "name": "Weighted Plank",
+        "equipment": "",
+        "description": "",
+        "difficulty": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/schedule.css" />
+    <title>Schedule</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="Text_nav">GYM PROGRESS</div>
+    </nav>
+    <div class="main-container">
+      <div class="sidebar">
+        <ul class="sidebar-list">
+          <li><a href="dashboard.html">DASHBOARD</a></li>
+          <li><a href="#">STATS</a></li>
+          <li><a href="#">SCHEDULE</a></li>
+        </ul>
+      </div>
+      <div class="schedule-container">
+        <div class="calendar-grid">
+          <!-- Zilele săptămânii -->
+          <div class="day-column" id="monday">
+            <div class="day-header">Monday</div>
+          </div>
+          <div class="day-column" id="tuesday">
+            <div class="day-header">Tuesday</div>
+          </div>
+          <div class="day-column" id="wednesday">
+            <div class="day-header">Wednesday</div>
+          </div>
+          <div class="day-column" id="thursday">
+            <div class="day-header">Thursday</div>
+          </div>
+          <div class="day-column" id="friday">
+            <div class="day-header">Friday</div>
+          </div>
+          <div class="day-column" id="saturday">
+            <div class="day-header">Saturday</div>
+          </div>
+          <div class="day-column" id="sunday">
+            <div class="day-header">Sunday</div>
+          </div>
+        </div>
+        <div class="exercise-form">
+          <div>
+            <label for="category-select">CHOOSE CATEGORY:</label>
+            <select id="category-select"></select>
+          </div>
+
+          <div>
+            <label for="exercise-select">CHOOSE THE EXERCISE:</label>
+            <select id="exercise-select"></select>
+          </div>
+          <div id="exercise-description" style="color: white; margin-top: 10px"></div>
+          <input type="number" id="sets" min="1" max="10" placeholder="Sets" />
+          <select id="day-select">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+          </select>
+          <button onclick="addToSchedule()" id="addbutton">Add</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/schedule.js"></script>
+  </body>
+</html>
