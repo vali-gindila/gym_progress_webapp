@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <link rel="stylesheet" href="css/dash.css" />
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="https://unpkg.com/cal-heatmap/dist/cal-heatmap.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/cal-heatmap/dist/cal-heatmap.css">
-  </head>
-  <body>
-    <nav id="navbar">
-      <div id="Text_nav">GYM PROGRESS</div>
-    </nav>
-<div class="main-container">
-    <div id="sidebar">
-      <ul class="sidebar-list">
-        <li><a href="#">DASHBOARD</a></li>
-        <li><a href="#">STATS</a></li>
-        <li><a href="schedule.html">SCHEDULE</a></li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <link rel="stylesheet" href="css/dash.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <div id="Text_nav">GYM PROGRESS</div>
+  </nav>
+  <div class="main-container">
+    <div class="sidebar">
+      <div class="sidebar-list">
+        <a href="dashboard.html">DASHBOARD</a>
+        <a href="schedule.html">SCHEDULE</a>
+      </div>
     </div>
     <div class="Dashboard">
       <div class="stats-row">
@@ -27,22 +26,20 @@
             <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
           </div>
           <div class="timer-box-buttons">
-            <button  id="start-button">START</button>
-            <button  id="stop-button">STOP</button>
+            <button id="start-button">START</button>
+            <button id="stop-button">STOP</button>
           </div>
         </div>
         <div class="stats-box">
-          <div class="progress-header">CALORIES BURNED</div>
+          <div class="progress-header">EXERCISES THIS WEEK</div>
           <div class="progress-body">
-            <div class="calories-burned-value">0</div>
-            <div class="calories-burned-unit">kcal</div>
+            <span id="exercise-week-count" class="stats-text">0</span>
           </div>
         </div>
         <div class="stats-box">
-          <div class="progress-header">PROGRESS PERCENTAGE WEEKLY</div>
+          <div class="progress-header">AVG SETS PER DAY</div>
           <div class="progress-body">
-            <span id="weekly-progress">0%</span>
-            <div id="chartper"></div>
+            <span id="avg-sets-day" class="stats-text">0</span>
           </div>
         </div>
       </div>
@@ -55,35 +52,32 @@
         </div>
       </div>
       <div class="bottom-row">
-        <div class="bottom-row-left">
-          <div class="progress-header">AVERRAGE TIME WICKLY</div>
+        <div class="stats-box bottom-row-left">
+          <div class="progress-header">TOTAL WEIGHT LIFTED WICKLY</div>
           <div class="progress-body">
-            <span id="progress-percentage">00:00:00</span>
+            <span id="progress-percentage" class="stats-text">0</span>
           </div>
         </div>
-        <div class="bottom-row-right">
-          <div class="progress-header">DAYS STREAK</div>
+        <div class="stats-box bottom-row-right">
+          <div class="progress-header">AVG REPS PER DAY</div>
           <div class="progress-body">
-            <span id="workout-count">0</span>
+            <span id="avg-reps-day" class="stats-text">0</span>
           </div>
         </div>
+
       </div>
     </div>
     <div class="dashboard-right">
       <div class="todo-list-box">
         <div class="progress-header" id="todo-list-header">TODO LIST</div>
+        <button onclick="finishDay()">Finish Day</button>
         <div class="todo-list-body">
           <ul id="todo-list">
           </ul>
         </div>
       </div>
-      <div class="calendar-heatmap-box">
-        <div class="progress-header">CALENDAR HEATMAP</div>
-        <div class="calendar-heatmap-body">
-          <div id="calendar-heatmap"></div>
-        </div>
     </div>
-  </div>
     <script src="js/dash.js"></script>
-  </body>
+</body>
+
 </html>

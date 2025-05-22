@@ -1,15 +1,19 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "gym_app");
+session_start();
+require 'db.php';
 
-$email = $_POST['email'];
-$password = $_POST['password'];
+$email = $_POST['email'] ?? '';
+$password = $_POST['password'] ?? '';
 
-$sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
-$result = $conn->query($sql);
+$stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
+$stmt->execute([$email]);
+$user = $stmt->fetch();
 
-if ($result->num_rows > 0) {
-    echo "success";
+if ($user && password_verify($password, $user['password'])) {
+    $_SESSION['user_id'] = $user['id'];
+    echo 'success';
 } else {
-    echo "invalid";
+    echo 'error';
 }
+
 ?>

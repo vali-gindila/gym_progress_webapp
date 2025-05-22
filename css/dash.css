@@ -46,7 +46,7 @@ body {
   background-color: rgb(0, 0, 0);
 }
 /*SIDEBAR*/
-#sidebar {
+.sidebar {
  background-color: hsla(0, 100.00%, 50.00%, 1.00);
   box-shadow: 3px 0 5px rgba(110, 110, 110, 0.508);
   border-radius: 10px;
@@ -59,28 +59,35 @@ body {
 .sidebar-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   list-style-type: none;
   font-family: Oswald;
   font-size: 20px;
-  padding-left: 0px;
+  padding-left: 0px;;
 }
-.sidebar-list li {
-  margin: 20px 0;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-weight: 700;
-  text-shadow: -8px 6px 9px hsla(0, 0.00%, 19.60%, 1.00);
-}
-.sidebar-list li a {
-  color: hsla(0, 0.00%, 0.00%, 1.00);
+.sidebar-list a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: Oswald;
   font-weight: 700;
-  text-shadow: -8px 6px 9px hsla(0, 0.00%, 19.60%, 1.00);
 }
+.dropdown-container {
+  display: none;
+  background-color: #26262600;
+  padding-left: 8px;
+}
+.active {
+  color: rgb(0, 0, 0);
+}
+
 /*DASHBOARD*/
 .Dashboard {
   display: flex;
@@ -222,7 +229,6 @@ body {
   margin: 5px;
   width:50%;
   box-shadow: 5px 5px 5px rgba(126, 126, 126, 0.492);
-
 }
 #progressChart {
   width: 100%;
@@ -240,6 +246,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   width: 35%;
+  height: 100%;
   margin-top: 5px;
 }
 /*TODO LIST*/
@@ -254,8 +261,9 @@ body {
   border-color: rgb(255, 0, 0);
   border-style: solid;
   margin-right: 5px;
-  height:70%;
-  margin-bottom: 5px;;
+  height:85vh;
+  margin-bottom: 5px;
+  overflow-y: auto;
 }
 #todo-list-header {
   font-size: 20px;
@@ -268,38 +276,60 @@ body {
   padding: 10px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  position: relative;
+  position: sticky;
   margin-bottom: 10px;
 }
 #todo-list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: auto;
   list-style-type: none;
   padding-left: 0px;
 }
 #todo-list li {
   margin: 10px 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   font-weight: 700;
   text-shadow: -8px 6px 9px hsla(0, 0.00%, 19.60%, 1.00);
 }
-/*calendar heatmap*/
-.calendar-heatmap-box {
+.todo-list-body{
+  overflow: hidden;
+}
+.toggle-dropdown {
+  display: flex;
+  border-style: none;
+  flex-direction: column;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 20px;
+  font-family: Oswald;
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+}
+.weight-input{
+  border-radius: 5px;
+}
+.reps-input{
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
   font-family: Oswald;
   font-size: 20px;
-  font-weight: bold;
-  color: hsla(0, 0.00%, 0.00%, 1.00);
-  border-color: rgb(255, 0, 0);
-  border-style: solid;
-  height:30%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 5px;;
 }
+.exercise-checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /*BOTTOM ROW*/
 .bottom-row {
   display: flex;
@@ -331,4 +361,11 @@ body {
   border-width: 4px;
   border-color: rgb(255, 0, 0);
   box-shadow: 5px 5px 5px rgba(126, 126, 126, 0.492);
+}
+.stats-text{
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }

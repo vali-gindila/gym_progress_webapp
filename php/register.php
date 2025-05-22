@@ -1,28 +1,16 @@
 <?php
-
-$conn = new mysqli("localhost", "root", "", "gym_app");
+require 'db.php';
 
 $name = $_POST['name'] ?? '';
 $email = $_POST['email'] ?? '';
-$password = $_POST['password'] ?? '';
+$password = password_hash($_POST['password'] ?? '', PASSWORD_DEFAULT);
 
-if ($name && $email && $password) {
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+$stmt = $pdo->prepare("INSERT INTO users (name, email, password) VALUES (?, ?, ?)");
 
-    // Prepare SQL
-    $stmt = $conn->prepare("INSERT INTO users (name, email, password) VALUES (?, ?, ?)");
-    $stmt->bind_param("sss", $name, $email, $hashedPassword);
-
-    if ($stmt->execute()) {
-        echo "success"; 
-    } else {
-        echo "error";
-    }
-
-    $stmt->close();
-} else {
-    echo "error";
+try {
+    $stmt->execute([$name, $email, $password]);
+    echo json_encode(['status' => 'success']);
+} catch (PDOException $e) {
+    echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);
 }
-
-$conn->close();
 ?>
